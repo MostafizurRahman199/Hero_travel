@@ -516,7 +516,7 @@ nav {
 }
 
 .choose_card{
-  width: 486px;
+  max-width: 486px;
 height: 220px;
 display: flex;
 flex-direction: column;
@@ -580,5 +580,21 @@ text-align: center;
 }
 .card_3{
 background: rgba(233, 68, 68, 0.05);
+}
+
+
+/* resposive design */
+@media(max-width:576px){
+  .choose_content{
+   
+    width: 80%;
+   
+  }
+
+  .choose_title{
+ 
+  font-size: 30px;
+  
+  }
   
 }
